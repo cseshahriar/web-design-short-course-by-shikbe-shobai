@@ -1,0 +1,77 @@
+/* Global css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Banner Section CSS */
+header {
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(../images/banner.png);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(../images/banner.png);
+    min-height: 650px;
+    background-size: cover;
+    background-position: center;
+}
+header .navbar {
+    padding-top: 22px;
+}
+header .navbar .nav-item {
+    margin: 0 20px;
+}
+header .navbar .nav-item .nav-link {
+    color:#fff;
+    transition: 0.5s linear;
+}
+header .navbar .nav-item .nav-link:hover {
+    color: #fff;
+    border-bottom: 1px solid #fb414e;
+}
+header .navbar .nav-item.active .nav-link {
+    /* if nav-item and active both class is present */
+    color: #fff;
+    border-bottom: 1px solid #fb414e;
+}
+
+.hero-area {
+    color: #fff;
+    text-align: center;
+    margin-top: 80px;
+}
+.hero-area h1{
+    font-weight: 700;
+    padding: 0 17%;
+    margin-bottom: 30px;
+}
+.hero-area p{
+    padding: 0 21%;
+    line-height: 1.7;
+    margin-bottom: 50px;
+}
+
+.hero-area .btn-ghost, .hero-area .btn-cta {
+    padding: 8px 50px;
+    border-radius: 0;
+    margin: 0 10px;
+}
+.hero-area .btn-cta{
+    background: #fb414e;
+    color: #fff;
+}
+.hero-area .btn-cta:hover{
+    background: #fa2534;
+}
+
+.hero-area .btn-ghost{
+    color: #fff;
+    border: 1px solid #fb414e;
+}
+.hero-area .btn-ghost:hover{
+    background: #fb414e;
+}
+
