@@ -281,5 +281,35 @@ header .navbar .nav-item.active .nav-link {
     margin-top: 28px;
     text-align: right;
 }
-
-
+/* design section */
+.design {
+    background: #f8f8f8;
+}
+.design .left-box {
+    padding:50px 0;
+}
+.design h2{
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.design p{
+    color: #838383;
+    line-height: 1.7;
+    margin-bottom: 40px !important;
+}
+.design .box{}
+.design .box img{
+    margin-bottom: 20px;
+}
+.design .box h5{
+    font-size: 22px;
+}
+.design .box p{
+    line-height: 1.7;
+    color: #838383;
+    margin-bottom: 0 !important;
+}
+.design .right-box{
+    min-height: 595px;
+}
