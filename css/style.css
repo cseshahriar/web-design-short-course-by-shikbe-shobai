@@ -217,3 +217,34 @@ header .navbar .nav-item.active .nav-link {
     transform: scale(1);
     transform-origin: bottom right;
 }
+/* Feature Section CSS */
+.feature{
+    padding: 80px 0 40px; /* bottom 40px + p margin 40px = 80px*/
+}
+.feature .left-feature {
+    margin-bottom: 30px;
+}
+.feature .left-feature h5{
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.feature .left-feature p{
+    line-height: 1.7;
+    color: #838383;
+    padding-right: 5%;
+}
+
+.feature .right-feature {
+    margin-left: 5%;
+}
+.feature .right-feature h2{
+    font-weight: 700;
+    font-size: 35px;
+    padding-right: 10%;
+    margin-bottom: 40px;
+}
+.feature .right-feature p{
+    color: #838383;
+    margin-bottom: 20px !important;
+    line-height: 1.7;
+}
