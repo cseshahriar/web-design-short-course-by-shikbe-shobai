@@ -313,3 +313,48 @@ header .navbar .nav-item.active .nav-link {
 .design .right-box{
     min-height: 595px;
 }
+/* contact section css*/
+.contact {
+    padding: 80px 0;
+}
+.contact h3{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 30px;
+    text-align: right;
+    padding-left: 10%;
+}
+.contact p{
+    color: #838383;
+    line-height: 1.7;
+    text-align: right;
+    margin-bottom: 30px !important
+}
+.contact form .form-row {
+    margin-bottom: 20px;
+}
+.contact form .form-control{
+    border-radius: 0;
+    border:1px solid #838383;
+    padding: 8px;
+}
+.contact form .btn-submit{
+    border-radius: 0;
+    background: #fb414e;
+    color: #fff;
+    padding: 10px;
+    transition: 0.3s linear;
+}
+.contact form .btn-submit:hover{
+    background: #ee2d3a;
+}
+/* fotter section css */
+footer {
+    background: #202030;
+    padding: 30px 0;
+}
+footer p {
+    color: #9aa7ac;
+    font-size: 14px;
+    text-align: center;
+}
