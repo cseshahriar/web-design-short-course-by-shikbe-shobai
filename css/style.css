@@ -3,6 +3,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    position: relative;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Source Sans Pro', sans-serif;
@@ -11,6 +12,18 @@ p {
     margin-bottom: 0 !important;
 }
 
+/* Back to top */
+.btn-back-top {
+    position: fixed;
+    right: 30px;
+    bottom: 25px;
+    background: #fb414e;
+    color: #fff;
+}
+.btn-back-top:hover {
+    background: #fa2534;
+    color: #fff;
+}
 /* Banner Section CSS */
 header {
     /* Chrome 10-25, Safari 5.1-6 */
@@ -81,6 +94,7 @@ header .navbar .nav-item.active .nav-link {
 .service{
     padding-bottom: 80px;
     margin-top: -80px;
+    overflow: hidden; /* verticla row problem fix */
 }
 .service .box{
     background: #202b30;
@@ -358,3 +372,12 @@ footer p {
     font-size: 14px;
     text-align: center;
 }
+.developer-link{
+    color: #9aa7ac;
+}
+.developer-link:hover {
+    color: #fff;
+}
+
+/* back to top css */
+.btn-back-top {}

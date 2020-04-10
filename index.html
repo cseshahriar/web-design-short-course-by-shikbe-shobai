@@ -10,16 +10,27 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 
+    <!-- Animated css -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Font Awesome -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
     <!-- my style  -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 
 </head>
-<body>
+<body id="home">
+    <!-- back to top -->
+    <a href="#home" class="btn btn-back-top">
+      <i class="fa fa-angle-up"></i>
+    </a>
+    <!-- / back to top -->
+
     <!-- Banner Section Start  -->
     <header>
         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light">
+            <nav class="navbar navbar-expand-lg navbar-light" id="main-nav">
               <a class="navbar-brand" href="#">
                   <img src="images/logo.png" height="33" width="126" alt="Kayllas">
               </a>
@@ -30,19 +41,22 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                   <li class="nav-item active">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="index.html">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
+                    <a class="nav-link" href="#about">About Us</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
+                    <a class="nav-link" href="#services">Services</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#works">Works</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#features">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
                   </li>
                 </ul>
               </div>
@@ -63,11 +77,11 @@
     <!-- Banner Section Ent  -->
 
     <!-- Searvice Section Start -->
-    <section class="service">
+    <section class="service" id="services">
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <div class="box">
+            <div class="box wow slideInLeft">
               <img src="images/box-icon.png" class="img-fluid" alt="Service Icon">
               <h5>Content Concept & Strategy</h5>
               <div class="white-line"></div>
@@ -76,7 +90,7 @@
           </div>
 
           <div class="col-md-4">
-            <div class="box">
+            <div class="box wow slideInDown">
               <img src="images/box-icon.png" class="img-fluid" alt="Service Icon">
               <h5>Content Concept & Strategy</h5>
               <div class="white-line"></div>
@@ -85,7 +99,7 @@
           </div>
 
           <div class="col-md-4">
-            <div class="box">
+            <div class="box wow slideInRight">
               <img src="images/box-icon.png" class="img-fluid" alt="Service Icon">
               <h5>Content Concept & Strategy</h5>
               <div class="white-line"></div>
@@ -98,7 +112,7 @@
     <!-- Searvice Section End -->
 
     <!-- Works Section Start -->
-    <section class="works">
+    <section class="works" id="works">
       <div class="container">
           <div class="row">
             <div class="col-12">
@@ -110,7 +124,7 @@
 
           <div class="row">
             <div class="col-md-4">
-              <div class="box">
+              <div class="box wow zoomIn">
                 <img src="images/strategy.png" class="img-fluid" alt="">
                 <h3>Strategy</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis laboriosam fugit quis quidem ipsa.</p>
@@ -118,7 +132,7 @@
             </div>
 
             <div class="col-md-4">
-              <div class="box">
+              <div class="box wow zoomIn">
                 <img src="images/strategy.png" class="img-fluid" alt="">
                 <h3>Strategy</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis laboriosam fugit quis quidem ipsa.</p>
@@ -126,7 +140,7 @@
             </div>
 
             <div class="col-md-4">
-              <div class="box">
+              <div class="box wow zoomIn">
                 <img src="images/strategy.png" class="img-fluid" alt="">
                 <h3>Strategy</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis laboriosam fugit quis quidem ipsa.</p>
@@ -134,7 +148,7 @@
             </div>
 
             <div class="col-md-4">
-              <div class="box">
+              <div class="box wow zoomIn">
                 <img src="images/strategy.png" class="img-fluid" alt="">
                 <h3>Strategy</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis laboriosam fugit quis quidem ipsa.</p>
@@ -142,7 +156,7 @@
             </div>
 
             <div class="col-md-4">
-              <div class="box">
+              <div class="box wow zoomIn">
                 <img src="images/strategy.png" class="img-fluid" alt="">
                 <h3>Strategy</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis laboriosam fugit quis quidem ipsa.</p>
@@ -150,7 +164,7 @@
             </div>
 
             <div class="col-md-4">
-              <div class="box">
+              <div class="box wow zoomIn">
                 <img src="images/strategy.png" class="img-fluid" alt="">
                 <h3>Strategy</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis laboriosam fugit quis quidem ipsa.</p>
@@ -162,7 +176,7 @@
     <!-- Works Section End -->
 
     <!-- About us section start -->
-    <section class="about">
+    <section class="about" id="about">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -180,7 +194,7 @@
 
 
     <!-- Feature Section Start  -->
-    <section class="feature">
+    <section class="feature" id="features">
       <div class="container">
         <div class="row">
           <!-- nested row start -->
@@ -298,7 +312,7 @@
     <!-- Design Section end -->
 
     <!-- Contact Section Start -->
-    <section class="contact">
+    <section class="contact" id="contact">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -357,7 +371,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <p>&copy; 2020. All Right reserved. By Shahriar Solution</p>
+            <p>&copy; 2020. All Right reserved. Developed by <a href="http://shahriarsolution.xyz/" target="_blank" class="developer-link" title="Shahriar Solution">Shahriar Solution</a></p>
           </div>
         </div>
       </div>
@@ -365,8 +379,45 @@
     <!-- Footer section  end -->
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        // wow js
+        new WOW().init();
+
+        //Smooth Scrolling
+        $('#main-nav a').on('click',function(e){
+          if(this.hash !== ''){
+            e.preventDefault();
+
+            const hash= this.hash;
+
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            },700, function() {
+              window.location.hash= hash;
+            });
+          }
+        });
+
+
+        //Smooth Scrolling
+        $('.btn-back-top').on('click',function(e){
+          if(this.hash !== ''){
+            e.preventDefault();
+
+            const hash= this.hash;
+
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            },700, function() {
+              window.location.hash= hash;
+            });
+          }
+        });
+
+    </script>
 </body>
 </html>
